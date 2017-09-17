@@ -29,9 +29,6 @@ def perceptronStep(X, y, W, b, learn_rate = 0.01):
     return W, b
 
     
-    
-    return W, b
-    
 # This function runs the perceptron algorithm repeatedly on the dataset,
 # and returns a few of the boundary lines obtained in the iterations,
 # for plotting purposes.
